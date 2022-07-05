@@ -1,0 +1,1 @@
+https://naiveskill.com/jenkins-pipeline-email-notification/
