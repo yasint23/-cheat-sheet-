@@ -1,4 +1,4 @@
-Installing MySQL on your AWS EC2 instance.
+Installing MySQL on your AWS EC2 instance.(Linux)
 
 $ sudo yum update -y
 $ sudo yum install mysql-server
