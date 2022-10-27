@@ -1,0 +1,4 @@
+- Get the number of items need to count (--no-headers | wc -l)
+Ex: kubectl get clusters --no-headers | wc -l
+
+
