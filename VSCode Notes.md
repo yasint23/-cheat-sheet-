@@ -8,11 +8,7 @@ export PS1="\[\e[36m\]\u@\h \W\[\033[32m\]\$(parse_git_branch)\[\033[00m\] $ "
 Bu komutlari, ec2 icerisindeki ".bashrc" file icine kopyalayip, ec2 stop run edince terminale "bash" yazarak activite edebilirsin.
  
 
-2- Get the public ip from terminal, you can play the command...
-```
-curl http://169.254.169.254/latest/meta-data/public-ipv4
-
-3- Host *
+2- Host *
     TCPKeepAlive yes
     ServerAliveInterval 120
 

@@ -14,5 +14,5 @@
 6) Vim move line right left
 Pres V choose lines with mouse then use > or <
 
-7) 
+7)  /`word` : search word in vim file
    

@@ -1,4 +1,10 @@
 - Get the number of items need to count (--no-headers | wc -l)
-Ex: kubectl get clusters --no-headers | wc -l
+Ex: $ kubectl get clusters --no-headers | wc -l
+
+- The way to clone sublfolder in github repository. 
+https://downgit.github.io/#/home   
+
+- Get the public ip from terminal, you can play the command...
+$ curl http://169.254.169.254/latest/meta-data/public-ipv4
 
 
