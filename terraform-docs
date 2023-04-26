@@ -1,0 +1,13 @@
+# Terraform-docs:
+
+https://terraform-docs.io/user-guide/introduction/
+
+- First download the zip file than define env path.
+
+$ curl -Lo ./terraform-docs.zip https://github.com/terraform-docs/terraform-docs/releases/download/v0.16.0/terraform-docs-v0.16.0-windows-amd64.zip 
+
+- How to generate readme file (When you make changes at any module files it will make changes on the readme file)
+
+$ terraform-docs markdown . >Readme.md
+
+
