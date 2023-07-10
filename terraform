@@ -1,4 +1,4 @@
-## Terraform-docs:
+# Terraform-docs:
 
 https://terraform-docs.io/user-guide/introduction/
 
@@ -11,3 +11,7 @@ $ curl -Lo ./terraform-docs.zip https://github.com/terraform-docs/terraform-docs
 $ terraform-docs markdown . >Readme.md
 
 
+# To see graph in Terraform Module Files etc in graph mode
+
+sudo install graphviz 
+terraform graph | dot -Tpdf > graph-plan.pdf

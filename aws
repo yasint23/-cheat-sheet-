@@ -1,5 +1,12 @@
-https://xxxxtokenxxxxx@github.com/yasint23/jenkins-projects.git
+# To start to use Isengardcli manage by your AWS Profile,
+    isengardcli assume
 
+           aws sts get-caller-identity
+
+# Copy all folders and files from S3
+  $ aws s3 cp . s3://bucketname --recursive
+
+# Go inside ec2 from nat-instance
 eval "$(ssh-agent)" (your local)
 ssh-add <pem-key>   (your local )
 ssh -A ec2-user@<Public IP or DNS name of NAT instance> (your local)

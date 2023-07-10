@@ -1,0 +1,13 @@
+# Hostscan CSD error can be fixed by restarting your network adapters - much less disruptive than restarting your computer. Run this in Powershell:
+
+           get-netadapter | restart-netadapter
+
+# To define path on windows advance setting without admin authorization; Run command on PowerShell.
+
+rundll32.exe sysdm.cpl,EditEnvironmentVariable
+
+To do it manually; 
+
+export PATH=$PATH:"/Users/YASIN.TUTEN/Documents/"
+
+
