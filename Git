@@ -1,4 +1,15 @@
-* Gitlab SSH Authentication
+# Gitlab SSH Authentication
     mwinit —version
 
     mwinit --aea  Run before clonning
+
+# Create Github Repo send local files;
+    - Create new github repo
+    - Go from terminal to local folder which you want to create remote repo
+        $ git init
+        $ git config user.name "...."
+        $ git config user.email "...."
+        $ git add .
+        $ git commit -m "....."
+        $ git remote add origin "URL of Remote Repo"
+        $ git push
